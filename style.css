@@ -13,13 +13,14 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 70%;
     padding: 3%;
 }
 .half-width img{
-    width: 120%;
+    width: 60%;
     }
 .link-button{
     text-decoration: none;
@@ -32,4 +33,9 @@ section{
     .logo{
         background-image: url(logo.PNG);
         background-repeat: no-repeat;
+    }
+    .about-dream{
+        background-image: url(logo2.jpg);
+        background-repeat: no-repeat;
+        background-position-x: right;
     }
